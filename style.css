@@ -1,0 +1,562 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-section {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.section1 {
+  background: url(./img/NG-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  opacity: 3;
+  /* width: 126.2rem; */
+  /* max-width: 100%; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20rem;
+  padding-top: 3rem;
+}
+
+.nav h1 {
+  font-size: 3rem;
+  color: red;
+  padding-left: 15rem;
+}
+
+.btn1 {
+  padding: 0.8rem 2rem;
+  font-size: 1.5rem;
+  background: red;
+  color: white;
+  border-radius: 0.8rem;
+}
+
+.nav button {
+  margin-right: 15rem;
+}
+
+.movies {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20rem;
+  color: white;
+  padding-bottom: 20rem;
+}
+
+.movies h1 {
+  font-size: 5rem;
+  /* font-family: "Roboto"; */
+}
+
+.movies h3 {
+  font-size: 2rem;
+  padding-left: 20rem;
+}
+
+.movies h4 {
+  font-size: 1.5rem;
+  padding-left: 10rem;
+}
+
+.email {
+  padding-left: 13rem;
+}
+
+.email input {
+  padding: 2rem 7rem;
+  background: gray;
+  border: 0.1rem solid whitesmoke;
+  border-radius: 0.4rem;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.btn2 {
+  padding: 1.7rem 7rem;
+  color: white;
+  background: red;
+  border-radius: 0.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding-bottom: 10rem;
+  border-top: 0.2rem solid gray;
+  /* padding-top: 10rem; */
+  /* padding-left: 18rem; */
+}
+
+.left {
+  color: white;
+  padding-left: 15rem;
+  /* padding-top: 7rem; */
+}
+
+.left h2 {
+  font-size: 5rem;
+}
+
+.left p {
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+.right {
+  padding-right: 15rem;
+}
+
+.right1 {
+  width: 45rem;
+}
+
+.section3 {
+  display: flex;
+  background: black;
+  border-top: 0.2rem solid gray;
+}
+
+.girl {
+  position: relative;
+  padding-top: 5rem;
+  padding-left: 8rem;
+  /* padding-bottom: 8rem; */
+}
+
+.img1 {
+  width: 50rem;
+  /* padding-right: 10rem; */
+}
+
+.image2 {
+  /* display: inline; */
+}
+
+.span-image1 {
+  position: absolute;
+  left: 17rem;
+  bottom: 4rem;
+  border: 0.2rem solid gray;
+  padding: 1rem 15rem 1rem 0.5rem;
+  border-radius: 1.2rem;
+  background-color: black;
+}
+.span-image2 {
+  color: white;
+  font-size: 1.5rem;
+  /* padding-left: 5rem; */
+}
+
+.img2 {
+  width: 5rem;
+  /* margin-right: 5rem; */
+}
+
+.download {
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  padding-left: 5rem;
+}
+.download h2 {
+  font-size: 5rem;
+  padding-top: 8rem;
+}
+
+.download h3 {
+  /* left: 3rem; */
+  font-size: 2rem;
+}
+
+.section4 {
+  background: black;
+  color: white;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 20rem;
+  border-top: 0.2rem solid gray;
+}
+
+.section4 h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+.section4 h3 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.section5 {
+  display: flex;
+  border-top: 0.2rem solid gray;
+  background: black;
+}
+
+.create {
+  color: white;
+  padding-top: 15rem;
+  padding-left: 5rem;
+  padding-bottom: 10rem;
+}
+.create h2 {
+  font-size: 4.5rem;
+  line-height: 6rem;
+}
+
+.create h3 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.kids {
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-bottom: 10rem;
+}
+
+.boy {
+  width: 50rem;
+}
+
+.section6 {
+  background: black;
+  color: white;
+  /* padding-left: 15rem; */
+  border-top: 0.2rem solid gray;
+  padding-top: 5rem;
+}
+
+.questions {
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  padding-left: 25rem;
+}
+
+.main-container {
+  padding-left: 20rem;
+}
+
+.what {
+  display: flex;
+  justify-content: space-between;
+  border: 0.2rem solid gray;
+  padding: 2.5rem 5rem;
+  width: 75%;
+  margin-bottom: 2rem;
+  background: gray;
+  font-size: 2rem;
+}
+
+.container {
+  /* padding-left: 10rem; */
+}
+
+.ready {
+  padding-left: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.ready p {
+  font-size: 2rem;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+}
+
+.section7 {
+  background: black;
+  border-top: 0.2rem solid gray;
+  /* display: flex;
+   */
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
+}
+
+.main-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  font-size: 1.5rem;
+}
+
+.contact li {
+  padding-top: 2rem;
+}
+
+.contact a {
+  color: gray;
+}
+
+.btn3 {
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background: black;
+  color: white;
+  border: 0.2rem solid white;
+}
+
+.contact h3 {
+  color: gray;
+  padding-top: 2rem;
+}
+
+/* MEDIA QUARY */
+
+@media (max-width: 70.3em) {
+  .movies h1 {
+    font-size: 3rem;
+  }
+
+  .movies h3 {
+    padding-left: 10rem;
+  }
+
+  .movies h4 {
+    padding-left: 5rem;
+  }
+
+  .email {
+    padding-left: 5rem;
+  }
+
+  .email input {
+    padding: 2rem 4rem;
+  }
+
+  .btn2 {
+    padding: 1.7rem 4rem;
+  }
+
+  .nav button {
+    margin-right: 20rem;
+  }
+
+  .left h2 {
+    font-size: 4rem;
+  }
+
+  .left p {
+    font-size: 1.8rem;
+  }
+
+  .right1 {
+    width: 30rem;
+  }
+
+  .right {
+    padding-right: 24rem;
+  }
+
+  .download {
+    padding-left: 2rem;
+  }
+
+  .create {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 64.6em) {
+  .left p {
+    font-size: 1.5rem;
+  }
+
+  .create h2 {
+    font-size: 3.2rem;
+    line-height: 4.5rem;
+  }
+
+  .create h3 {
+    font-size: 1.5rem;
+    list-style: 2rem;
+  }
+
+  .download h2 {
+    font-size: 3rem;
+  }
+
+  .download h3 {
+    font-size: 1.5rem;
+  }
+
+  .download {
+    padding-left: 1rem;
+  }
+
+  .left h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+  }
+
+  .left {
+    padding-left: 5rem;
+  }
+
+  .right {
+    padding-right: 5rem;
+  }
+
+  .left p {
+    /* font-size: 1.5rem; */
+  }
+
+  .section3 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .girl {
+    position: relative;
+    padding-left: 1rem;
+    padding-top: none;
+    padding-bottom: 15rem;
+  }
+
+  .img1 {
+    width: 70rem;
+  }
+
+  .download {
+    /* padding-bottom: 1rem; */
+  }
+
+  .span-image1 {
+    position: absolute;
+    bottom: 8rem;
+    padding: 1rem 22rem 1rem 0.5rem;
+  }
+
+  .section5 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .kids {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+  }
+
+  .section6 {
+    padding-top: 8rem;
+  }
+
+  .questions {
+    padding-left: 15rem;
+    font-size: 2rem;
+  }
+
+  .main-container {
+    padding-left: 15rem;
+  }
+
+  .what {
+    padding: 1.5rem 3rem;
+  }
+
+  .ready p {
+    padding-left: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .main-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 47em) {
+  .nav h1 {
+    padding-left: 10rem;
+  }
+
+  .nav button {
+    margin-right: 15rem;
+  }
+
+  .movies {
+    padding-left: 15rem;
+  }
+
+  .movies h1 {
+    font-size: 2.5rem;
+  }
+
+  .movies h3 {
+    /* padding-left: 1rem; */
+    font-size: 1.5rem;
+  }
+
+  .movies h4 {
+    padding-left: 1rem;
+  }
+
+  .email {
+    padding-left: 2rem;
+  }
+
+  .email input {
+    padding: 2rem 3rem;
+  }
+
+  .btn2 {
+    padding: 1.7rem 2.6rem;
+  }
+}
+
+@media (max-width: 41.6em) {
+  .movies {
+    padding-left: 10rem;
+  }
+
+  .img1 {
+    width: 50rem;
+  }
+
+  .ready p {
+    padding-left: 0.5rem;
+  }
+
+  .what {
+    font-size: 1rem;
+  }
+}
